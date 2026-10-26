@@ -1,0 +1,7 @@
+server:
+  port: 8081
+message: Chao mung
+
+db:
+  url: jdbc:postgresql://localhost:5432/patient_db
+  username: postgres
