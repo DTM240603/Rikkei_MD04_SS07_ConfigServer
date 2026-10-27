@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:sqlserver://localhost:1433;databaseName=patient_db;encrypt=true;trustServerCertificate=true
     username: sa
-    password: "123456"
+    password: "{cipher}7cd02eecbc403eafa289dcad3230e3e380b31cb373b187b7cbd810a0d0e87311"
   jpa:
     hibernate:
       ddl-auto: update
