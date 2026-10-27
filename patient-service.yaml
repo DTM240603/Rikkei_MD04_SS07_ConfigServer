@@ -1,7 +1,8 @@
-server:
-  port: 8081
-message: Chao mung
-
-db:
+datasource:
   url: jdbc:postgresql://localhost:5432/patient_db
   username: postgres
+  password: "123456"
+jpa:
+  hibernate:
+    ddl-auto: update
+  open-in-view: false
